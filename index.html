@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>shopping-cart</title>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+				<link rel="stylesheet" href="css/SHOPPING-CART.css">
+	</head>
+	<body>
+	  	<header>
+	  		<div class="shopping-bag-total">
+			<div class="container ">	
+		  		<div class="row">
+		  			<div class="col-lg text-center">
+		  				<h3>Shopping Bag Total</h3>:<span id="total-price"> 0</span>$	  						
+		  			</div>	
+		  		</div>
+		  	</div>
+	  	</header>
+		  <main>
+		  	<div class="product">
+		  	<div class="container text-center">
+		  	 <div id="div-01">
+		  		 <div class="row ">
+		  			 <div class="col-lg ">
+		  				 <button onclick="remove1()" type="button" class="btn btn-outline-dark">X</button>
+		  				 <img src="img/ch1.jpg" alt="fist-sh" width="200px" height="200px">
+		  				 <i>300 $</i>
+		  				 <span>Brown Shoes </span>
+               <a onclick="add1()" href="#" class="btn btn-secondary btn-lg  " tabindex="-1" role="button" aria-disabled="true">+</a>
+               <span id="number1" > 0 </span>
+               <a  onclick="subs1()" href="#" class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">-</a>
+               <span id="price1" >0</span>$
+            </div>
+		  		 </div>		  			
+		  		</div>
+		  		<div id="div-02">
+		  		<div class="row">
+		  			<div class="col-lg ">
+		  				<button  onclick="remove2()" type="button" class="btn btn-outline-dark">X</button>
+		  				<img src="img/ch2.jpg" alt="second-sh" width="200px" height="200px">
+		  				<i> 350$</i>
+		  				<span>White Shoes </span>
+               <a onclick="add2()" href="#" class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">+</a>
+               <span id="number2"> 0</span>
+               <a onclick="subs2()" href="#" class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">-</a> 
+               <span id="price2">0</span>$
+		  			</div>		  			
+		  		</div>
+		  	</div>
+		  	<div id="div-03">
+		  		<div class="row">
+		  			<div class="col-lg ">
+		  				<button onclick="remove3()" type="button" class="btn btn-outline-dark">X</button>
+		  				<img src="img/ch3.jpg" alt="third-sh" width="200px" height="200px">
+		  				<i>400$</i>
+		  				<span>Black Shoes </span>
+               <a onclick="add3()" href="#" class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">+</a>
+               <span id="number3"> 0</span>
+               <a onclick="subs3()" href="#" class="btn btn-secondary btn-lg " tabindex="-1" role="button" aria-disabled="true">-</a>
+               <span id="price3">0</span>$
+		  			</div>		  			
+		  		</div>
+		  	</div>
+		  	
+
+
+		  </div>
+
+	
+
+
+		  </main>
+		  <footer>
+			
+		  </footer>
+			
+		   <script src ="js/jquery-3.3.1.min.js"></script>
+		   <script src ="js/bootstrap.min.js"></script>
+		   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	       <script src ="js/main.js"></script>
+
+
+	</body>
+</html>
